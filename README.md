@@ -1,5 +1,15 @@
 # Real-Time Sub-Millisecond C++20 / CUDA Zero-Copy BCI Inference Engine
 
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-20-blue.svg?style=for-the-badge&logo=c%2B%2B" alt="C++20">
+  <img src="https://img.shields.io/badge/CUDA-12.8-green.svg?style=for-the-badge&logo=nvidia" alt="CUDA 12.8">
+  <img src="https://img.shields.io/badge/Hardware-AVX2%20SIMD-orange.svg?style=for-the-badge" alt="AVX2 SIMD">
+  <img src="https://img.shields.io/badge/SLA-Sub--Millisecond%20P99-brightgreen.svg?style=for-the-badge" alt="Sub-Millisecond SLA">
+  <img src="https://img.shields.io/badge/Architecture-Zero--Copy%20Mapped-red.svg?style=for-the-badge" alt="Zero-Copy Architecture">
+  <img src="https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-lightgrey.svg?style=for-the-badge&logo=ubuntu" alt="Platform Linux/WSL2">
+</p>
+
 **Author:** João Felipe de Souza ([github.com/JohnScheuer](https://github.com/JohnScheuer)) — *Staff ML Systems Engineer*
 
 ---
@@ -28,7 +38,7 @@ The benchmark was executed on an **NVIDIA GeForce RTX 5060 (8GB GDDR7, SM 12.0)*
 
 A total of **10,000 continuous neural frames** (10 seconds at 1000 Hz) were processed in real time.
 
-### Empirical Benchmark Results
+### Empirical Benchmark Results Table
 
 | Latency Metric | Measured Value (µs) | SLA Target Limit (µs) | Headroom / SLA Compliance |
 | :--- | :---: | :---: | :---: |
