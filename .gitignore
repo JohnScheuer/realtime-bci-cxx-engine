@@ -1,0 +1,10 @@
+build/
+*.o
+*.so
+*.a
+bin/
+latency_benchmark.csv
+.vscode/
+.idea/
+*.swp
+!figures/*.png
